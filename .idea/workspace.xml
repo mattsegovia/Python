@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef4a34bf-31c8-42f7-84c8-a8c790e2a9c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/Website/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/Website/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/Website/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/webapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/Website/webapp.py" afterDir="false" />
-    </list>
+    <list default="true" id="ef4a34bf-31c8-42f7-84c8-a8c790e2a9c3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +10,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="frontend.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BookRecordsDatabaseApp/frontend.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backend.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookRecordsDatabaseApp/backend.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +60,11 @@
         <option value="$PROJECT_DIR$/SQLite_PostgreSQL/sqlite.py" />
         <option value="$PROJECT_DIR$/SQLite_PostgreSQL/db_dred.txt" />
         <option value="$PROJECT_DIR$/SQLite_PostgreSQL/postgre.py" />
+        <option value="$PROJECT_DIR$/DesktopDBApp/script.py" />
+        <option value="$PROJECT_DIR$/DesktopDBApp/frontend.py" />
+        <option value="$PROJECT_DIR$/DesktopDBApp/backend.py" />
+        <option value="$PROJECT_DIR$/BookRecordsDatabaseApp/backend.py" />
+        <option value="$PROJECT_DIR$/BookRecordsDatabaseApp/frontend.py" />
       </list>
     </option>
   </component>
@@ -64,6 +85,11 @@
             <path>
               <item name="UdemyApps" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdemyApps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UdemyApps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UdemyApps" type="462c0819:PsiDirectoryNode" />
+              <item name="BookRecordsDatabaseApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -97,7 +123,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.postgre">
+  <component name="RunManager" selected="Python.frontend (1)">
+    <configuration name="backend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UdemyApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DesktopDBApp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DesktopDBApp/backend.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="frontend (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UdemyApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BookRecordsDatabaseApp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BookRecordsDatabaseApp/frontend.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="frontend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UdemyApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DesktopDBApp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DesktopDBApp/frontend.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="postgre" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UdemyApps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,24 +191,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQLite_PostgreSQL/postgre.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="UdemyApps" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI With Tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI With Tkinter/script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,56 +214,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sqlite3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="UdemyApps" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQLite_PostgreSQL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Matthew\PycharmProjects\UdemyApps\SQLite_PostgreSQL\sqlite.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="webapp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="UdemyApps" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Website" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Website/webapp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.webapp (1)" />
-      <item itemvalue="Python.script" />
-      <item itemvalue="Python.sqlite3" />
       <item itemvalue="Python.sqlite" />
       <item itemvalue="Python.postgre" />
+      <item itemvalue="Python.frontend" />
+      <item itemvalue="Python.backend" />
+      <item itemvalue="Python.frontend (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.frontend (1)" />
+        <item itemvalue="Python.backend" />
+        <item itemvalue="Python.frontend" />
         <item itemvalue="Python.postgre" />
         <item itemvalue="Python.sqlite" />
-        <item itemvalue="Python.sqlite3" />
-        <item itemvalue="Python.script" />
-        <item itemvalue="Python.webapp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +255,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17536534" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Console" order="7" />
@@ -321,6 +347,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="18" lean-forward="true" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookRecordsDatabaseApp/backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="2295" selection-start-line="2295" selection-end-line="2295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookRecordsDatabaseApp/frontend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
