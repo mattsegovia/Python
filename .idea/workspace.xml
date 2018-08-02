@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef4a34bf-31c8-42f7-84c8-a8c790e2a9c3" name="Default" comment="" />
+    <list default="true" id="ef4a34bf-31c8-42f7-84c8-a8c790e2a9c3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/Website/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/Website/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/Website/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/webapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/MySite/Website/webapp.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,20 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="website_blocker.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebsiteBlocker/website_blocker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +37,13 @@
         <option value="$PROJECT_DIR$/WebsiteBlocker/templates/layout.html" />
         <option value="$PROJECT_DIR$/WebsiteBlocker/blocker.py" />
         <option value="$PROJECT_DIR$/WebsiteBlocker/website_blocker.py" />
+        <option value="$PROJECT_DIR$/Website/templates/layout.html" />
+        <option value="$PROJECT_DIR$/Website/static/css/main.css" />
+        <option value="$PROJECT_DIR$/GUI With Tkinter/script.py" />
+        <option value="$PROJECT_DIR$/SQLite_PostgreSQL/sqlite3.py" />
+        <option value="$PROJECT_DIR$/SQLite_PostgreSQL/sqlite.py" />
+        <option value="$PROJECT_DIR$/SQLite_PostgreSQL/db_dred.txt" />
+        <option value="$PROJECT_DIR$/SQLite_PostgreSQL/postgre.py" />
       </list>
     </option>
   </component>
@@ -58,7 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -66,37 +65,21 @@
               <item name="UdemyApps" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdemyApps" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UdemyApps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyApps" type="462c0819:PsiDirectoryNode" />
-              <item name="Webmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyApps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyApps" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyApps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyApps" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyApps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdemyApps" type="462c0819:PsiDirectoryNode" />
-              <item name="WebsiteBlocker" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Matthew\PycharmProjects\UdemyApps\MySite" />
+      <recent name="C:\Users\Matthew\PycharmProjects\UdemyApps" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Matthew\PycharmProjects\UdemyApps\WebsiteBlocker" />
       <recent name="C:\Users\Matthew\PycharmProjects\UdemyApps\WebsiteBlocker\templates" />
@@ -114,8 +97,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.website_blocker">
-    <configuration name="webapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.postgre">
+    <configuration name="postgre" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UdemyApps" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,17 +106,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebsiteBlocker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQLite_PostgreSQL" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebsiteBlocker/webapp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQLite_PostgreSQL/postgre.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="website_blocker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UdemyApps" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,24 +124,84 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebsiteBlocker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI With Tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebsiteBlocker/website_blocker.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI With Tkinter/script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="sqlite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UdemyApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQLite_PostgreSQL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQLite_PostgreSQL/sqlite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="sqlite3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UdemyApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQLite_PostgreSQL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Matthew\PycharmProjects\UdemyApps\SQLite_PostgreSQL\sqlite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="webapp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UdemyApps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Website" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Website/webapp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.webapp" />
-      <item itemvalue="Python.website_blocker" />
+      <item itemvalue="Python.webapp (1)" />
+      <item itemvalue="Python.script" />
+      <item itemvalue="Python.sqlite3" />
+      <item itemvalue="Python.sqlite" />
+      <item itemvalue="Python.postgre" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.website_blocker" />
-        <item itemvalue="Python.webapp" />
+        <item itemvalue="Python.postgre" />
+        <item itemvalue="Python.sqlite" />
+        <item itemvalue="Python.sqlite3" />
+        <item itemvalue="Python.script" />
+        <item itemvalue="Python.webapp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +220,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
@@ -187,11 +229,10 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947807" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -201,50 +242,29 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Website/webapp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/MySite/Website/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Website/templates/about.html">
+    <entry file="file://$PROJECT_DIR$/MySite/Website/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebsiteBlocker/hosts2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebsiteBlocker/hosts2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WebsiteBlocker/hosts2" />
+    <entry file="file://$PROJECT_DIR$/WebsiteBlocker/hosts2" />
     <entry file="file://$PROJECT_DIR$/WebsiteBlocker/hosts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -252,9 +272,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/Website/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/Website/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/Website/webapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI With Tkinter/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQLite_PostgreSQL/db_dred.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQLite_PostgreSQL/postgre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQLite_PostgreSQL/sqlite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" lean-forward="true" selection-end-line="30" />
         </state>
       </provider>
     </entry>
